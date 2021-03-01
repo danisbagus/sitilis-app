@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/Iv_images"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp" >
+
+            <TextView
+                style="@style/TextContent.Name"
+                android:layout_marginTop="4dp"
+                android:id="@+id/Tv_city_name"
+                android:text="City name"/>
+
+            <TextView
+                style="@style/TextContent.Location"
+                android:layout_marginTop="4dp"
+                android:id="@+id/Tv_city_location"
+                android:text="City location"/>
+
+            <TextView
+                style="@style/TextContent.Detail"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:text="Desciptions :"/>
+
+            <TextView
+                style="@style/TextContent.Detail"
+                android:id="@+id/Tv_city_detail"
+                android:text="City detail"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

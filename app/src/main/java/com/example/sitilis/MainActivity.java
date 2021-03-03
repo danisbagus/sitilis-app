@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
                 showRecyclerList();
                 break;
             case R.id.action_about:
-                Intent detailIntent = new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(detailIntent);
+                Intent aboutIntent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(aboutIntent);
                 break;
         }
     }
